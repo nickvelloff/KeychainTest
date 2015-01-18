@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013273EC1A6ACF49006F38B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013273EB1A6ACF49006F38B5 /* AppDelegate.swift */; };
+		013273EE1A6ACF49006F38B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013273ED1A6ACF49006F38B5 /* ViewController.swift */; };
+		013273F11A6ACF49006F38B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013273EF1A6ACF49006F38B5 /* Main.storyboard */; };
+		013273F31A6ACF4A006F38B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013273F21A6ACF49006F38B5 /* Images.xcassets */; };
+		013273F61A6ACF4A006F38B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013273F41A6ACF4A006F38B5 /* LaunchScreen.xib */; };
+		013274021A6ACF4A006F38B5 /* KeychainTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013274011A6ACF4A006F38B5 /* KeychainTestTests.swift */; };
+		01B2D67A1A6B69F400AD69BF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2D6791A6B69F400AD69BF /* AssetsLibrary.framework */; };
+		01B2D67C1A6B69FB00AD69BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2D67B1A6B69FB00AD69BF /* CoreGraphics.framework */; };
+		01B2D67E1A6B6A0100AD69BF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2D67D1A6B6A0100AD69BF /* CoreText.framework */; };
+		01B2D6801A6B6A0800AD69BF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2D67F1A6B6A0800AD69BF /* MobileCoreServices.framework */; };
+		01B2D6821A6B6A1400AD69BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2D6811A6B6A1400AD69BF /* QuartzCore.framework */; };
+		01B2D6841A6B6A1B00AD69BF /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2D6831A6B6A1B00AD69BF /* QuickLook.framework */; };
+		01B2D6861A6B6A2300AD69BF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2D6851A6B6A2300AD69BF /* SystemConfiguration.framework */; };
+		01B2D68D1A6B6A8500AD69BF /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B2D6891A6B6A8500AD69BF /* HockeySDK.framework */; };
+		01B2D68E1A6B6A8500AD69BF /* HockeySDK.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 01B2D68B1A6B6A8500AD69BF /* HockeySDK.xcconfig */; };
+		01B2D68F1A6B6A8500AD69BF /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01B2D68C1A6B6A8500AD69BF /* HockeySDKResources.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		013273FC1A6ACF4A006F38B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 013273DE1A6ACF49006F38B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 013273E51A6ACF49006F38B5;
+			remoteInfo = KeychainTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013273E61A6ACF49006F38B5 /* KeychainTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013273EA1A6ACF49006F38B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013273EB1A6ACF49006F38B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		013273ED1A6ACF49006F38B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		013273F01A6ACF49006F38B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		013273F21A6ACF49006F38B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		013273F51A6ACF4A006F38B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		013273FB1A6ACF4A006F38B5 /* KeychainTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeychainTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		013274001A6ACF4A006F38B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013274011A6ACF4A006F38B5 /* KeychainTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainTestTests.swift; sourceTree = "<group>"; };
+		0132740B1A6AD018006F38B5 /* KeychainTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KeychainTest.entitlements; sourceTree = "<group>"; };
+		01B2D6791A6B69F400AD69BF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		01B2D67B1A6B69FB00AD69BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01B2D67D1A6B6A0100AD69BF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		01B2D67F1A6B6A0800AD69BF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		01B2D6811A6B6A1400AD69BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		01B2D6831A6B6A1B00AD69BF /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		01B2D6851A6B6A2300AD69BF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		01B2D6891A6B6A8500AD69BF /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		01B2D68B1A6B6A8500AD69BF /* HockeySDK.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = HockeySDK.xcconfig; sourceTree = "<group>"; };
+		01B2D68C1A6B6A8500AD69BF /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013273E31A6ACF49006F38B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B2D6861A6B6A2300AD69BF /* SystemConfiguration.framework in Frameworks */,
+				01B2D6841A6B6A1B00AD69BF /* QuickLook.framework in Frameworks */,
+				01B2D6821A6B6A1400AD69BF /* QuartzCore.framework in Frameworks */,
+				01B2D6801A6B6A0800AD69BF /* MobileCoreServices.framework in Frameworks */,
+				01B2D68D1A6B6A8500AD69BF /* HockeySDK.framework in Frameworks */,
+				01B2D67E1A6B6A0100AD69BF /* CoreText.framework in Frameworks */,
+				01B2D67C1A6B69FB00AD69BF /* CoreGraphics.framework in Frameworks */,
+				01B2D67A1A6B69F400AD69BF /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013273F81A6ACF4A006F38B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013273DD1A6ACF49006F38B5 = {
+			isa = PBXGroup;
+			children = (
+				01B2D6871A6B6A6700AD69BF /* Frameworks */,
+				013273E81A6ACF49006F38B5 /* KeychainTest */,
+				013273FE1A6ACF4A006F38B5 /* KeychainTestTests */,
+				013273E71A6ACF49006F38B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013273E71A6ACF49006F38B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013273E61A6ACF49006F38B5 /* KeychainTest.app */,
+				013273FB1A6ACF4A006F38B5 /* KeychainTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013273E81A6ACF49006F38B5 /* KeychainTest */ = {
+			isa = PBXGroup;
+			children = (
+				0132740B1A6AD018006F38B5 /* KeychainTest.entitlements */,
+				013273EB1A6ACF49006F38B5 /* AppDelegate.swift */,
+				013273ED1A6ACF49006F38B5 /* ViewController.swift */,
+				013273EF1A6ACF49006F38B5 /* Main.storyboard */,
+				013273F21A6ACF49006F38B5 /* Images.xcassets */,
+				013273F41A6ACF4A006F38B5 /* LaunchScreen.xib */,
+				013273E91A6ACF49006F38B5 /* Supporting Files */,
+			);
+			path = KeychainTest;
+			sourceTree = "<group>";
+		};
+		013273E91A6ACF49006F38B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				013273EA1A6ACF49006F38B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		013273FE1A6ACF4A006F38B5 /* KeychainTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				013274011A6ACF4A006F38B5 /* KeychainTestTests.swift */,
+				013273FF1A6ACF4A006F38B5 /* Supporting Files */,
+			);
+			path = KeychainTestTests;
+			sourceTree = "<group>";
+		};
+		013273FF1A6ACF4A006F38B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				013274001A6ACF4A006F38B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01B2D6871A6B6A6700AD69BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01B2D6881A6B6A8500AD69BF /* HockeySDK.embeddedframework */,
+				01B2D6851A6B6A2300AD69BF /* SystemConfiguration.framework */,
+				01B2D6831A6B6A1B00AD69BF /* QuickLook.framework */,
+				01B2D6811A6B6A1400AD69BF /* QuartzCore.framework */,
+				01B2D67F1A6B6A0800AD69BF /* MobileCoreServices.framework */,
+				01B2D67D1A6B6A0100AD69BF /* CoreText.framework */,
+				01B2D67B1A6B69FB00AD69BF /* CoreGraphics.framework */,
+				01B2D6791A6B69F400AD69BF /* AssetsLibrary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01B2D6881A6B6A8500AD69BF /* HockeySDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				01B2D6891A6B6A8500AD69BF /* HockeySDK.framework */,
+				01B2D68A1A6B6A8500AD69BF /* Resources */,
+			);
+			name = HockeySDK.embeddedframework;
+			path = "HockeySDK-iOS/HockeySDK.embeddedframework";
+			sourceTree = "<group>";
+		};
+		01B2D68A1A6B6A8500AD69BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01B2D68B1A6B6A8500AD69BF /* HockeySDK.xcconfig */,
+				01B2D68C1A6B6A8500AD69BF /* HockeySDKResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013273E51A6ACF49006F38B5 /* KeychainTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013274051A6ACF4A006F38B5 /* Build configuration list for PBXNativeTarget "KeychainTest" */;
+			buildPhases = (
+				013273E21A6ACF49006F38B5 /* Sources */,
+				013273E31A6ACF49006F38B5 /* Frameworks */,
+				013273E41A6ACF49006F38B5 /* Resources */,
+				01B2D6781A6B69C200AD69BF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainTest;
+			productName = KeychainTest;
+			productReference = 013273E61A6ACF49006F38B5 /* KeychainTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		013273FA1A6ACF4A006F38B5 /* KeychainTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013274081A6ACF4A006F38B5 /* Build configuration list for PBXNativeTarget "KeychainTestTests" */;
+			buildPhases = (
+				013273F71A6ACF4A006F38B5 /* Sources */,
+				013273F81A6ACF4A006F38B5 /* Frameworks */,
+				013273F91A6ACF4A006F38B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				013273FD1A6ACF4A006F38B5 /* PBXTargetDependency */,
+			);
+			name = KeychainTestTests;
+			productName = KeychainTestTests;
+			productReference = 013273FB1A6ACF4A006F38B5 /* KeychainTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013273DE1A6ACF49006F38B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "The Experiment";
+				TargetAttributes = {
+					013273E51A6ACF49006F38B5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 8DT848T694;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					013273FA1A6ACF4A006F38B5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 013273E51A6ACF49006F38B5;
+					};
+				};
+			};
+			buildConfigurationList = 013273E11A6ACF49006F38B5 /* Build configuration list for PBXProject "KeychainTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 013273DD1A6ACF49006F38B5;
+			productRefGroup = 013273E71A6ACF49006F38B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013273E51A6ACF49006F38B5 /* KeychainTest */,
+				013273FA1A6ACF4A006F38B5 /* KeychainTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013273E41A6ACF49006F38B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013273F11A6ACF49006F38B5 /* Main.storyboard in Resources */,
+				013273F61A6ACF4A006F38B5 /* LaunchScreen.xib in Resources */,
+				01B2D68F1A6B6A8500AD69BF /* HockeySDKResources.bundle in Resources */,
+				01B2D68E1A6B6A8500AD69BF /* HockeySDK.xcconfig in Resources */,
+				013273F31A6ACF4A006F38B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013273F91A6ACF4A006F38B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01B2D6781A6B69C200AD69BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013273E21A6ACF49006F38B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013273EE1A6ACF49006F38B5 /* ViewController.swift in Sources */,
+				013273EC1A6ACF49006F38B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013273F71A6ACF4A006F38B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013274021A6ACF4A006F38B5 /* KeychainTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		013273FD1A6ACF4A006F38B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 013273E51A6ACF49006F38B5 /* KeychainTest */;
+			targetProxy = 013273FC1A6ACF4A006F38B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		013273EF1A6ACF49006F38B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013273F01A6ACF49006F38B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		013273F41A6ACF4A006F38B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013273F51A6ACF4A006F38B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		013274031A6ACF4A006F38B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		013274041A6ACF4A006F38B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		013274061A6ACF4A006F38B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeychainTest/KeychainTest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
+				INFOPLIST_FILE = KeychainTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		013274071A6ACF4A006F38B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KeychainTest/KeychainTest.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
+				INFOPLIST_FILE = KeychainTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		013274091A6ACF4A006F38B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeychainTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeychainTest.app/KeychainTest";
+			};
+			name = Debug;
+		};
+		0132740A1A6ACF4A006F38B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KeychainTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeychainTest.app/KeychainTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013273E11A6ACF49006F38B5 /* Build configuration list for PBXProject "KeychainTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013274031A6ACF4A006F38B5 /* Debug */,
+				013274041A6ACF4A006F38B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013274051A6ACF4A006F38B5 /* Build configuration list for PBXNativeTarget "KeychainTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013274061A6ACF4A006F38B5 /* Debug */,
+				013274071A6ACF4A006F38B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013274081A6ACF4A006F38B5 /* Build configuration list for PBXNativeTarget "KeychainTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013274091A6ACF4A006F38B5 /* Debug */,
+				0132740A1A6ACF4A006F38B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013273DE1A6ACF49006F38B5 /* Project object */;
+}

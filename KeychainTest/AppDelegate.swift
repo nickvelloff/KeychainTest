@@ -36,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let key = "Full Name";
         let service = NSBundle.mainBundle().bundleIdentifier!
         /* TODO: Place your own team ID here */
-        let accessGroup = "8DT848T694.*"
+        let accessGroup = "8DT848T694.io.theexperiment"
         
         /* First delete the existing one if one exists. We don't have to do this
         but SecItemAdd will fail if an existing value is in the keychain. */
@@ -88,7 +88,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        let service = "com.pixolity.ios.cookbook.app"
         let service = NSBundle.mainBundle().bundleIdentifier!
         
-        let accessGroup = "8DT848T694.*"
+        let accessGroup = "8DT848T694.io.theexperiment"
         
         let query = [
             kSecClass as NSString :

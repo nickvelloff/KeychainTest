@@ -4,7 +4,7 @@
 <dict>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>8DT848T694.*</string>
+		<string>8DT848T694.io.theexperiment</string>
 	</array>
 </dict>
 </plist>
